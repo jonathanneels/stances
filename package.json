@@ -1,0 +1,22 @@
+{
+  "name": "stances",
+  "version": "0.2.0",
+  "description": "Learn movements from sports like Saber fencing and Aikido in interactive 3D, made with Mannequin js.",
+  "main": "SIMPLESERVER.js",
+  "scripts": {
+    "start": "node index_HEROKU.js"
+  },
+  "engines": {
+    "node": "14.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanneels/stances"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "Jonathan F.M. Neels",
+  "license": "MIT"
+}
