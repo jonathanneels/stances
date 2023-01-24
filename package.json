@@ -2,9 +2,9 @@
   "name": "stances",
   "version": "0.2.0",
   "description": "Learn movements from sports like Saber fencing and Aikido in interactive 3D, made with Mannequin js.",
-  "main": "index_VERCEL.js",
+  "main": "index_Vercel.js",
   "scripts": {
-    "start": "node index_VERCEL.js"
+    "start": "node index_Vercel.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "node",
-    "vercel"
+    "DOCKER"
   ],
   "author": "Jonathan F.M. Neels",
   "license": "MIT"
