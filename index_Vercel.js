@@ -46,7 +46,7 @@ fs.readdir(directoryPath+request.url.replace('/movelists',''), function (err, fi
       return;
     }
 
-     else if (fs.statSync(filename).isDirectory()){ filename += '/lasersaber_alt.html';}//'/aikido_start.html';}
+     else if (fs.statSync(filename).isDirectory()){ filename += '/index.html';}//'/aikido_start.html';}
 
     fs.readFile(filename, "binary", function(err, file) {
       if(err) {        
