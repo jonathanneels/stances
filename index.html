@@ -106,8 +106,8 @@ overflow:auto;
    <div id="divInfo">
 No info.
    </div>
-       <div id="panel" style="overflow-y:auto;min-width:220px;">
-	  <span id="sManipulators"  >
+       <div id="panel" style="overflow-y:auto;width:220px;min-height:100px;">
+	  <span id="sManipulators"  hidden>
 	      <label  ><input id="Saber"    type="checkbox" class="toggle"   onclick="OnOfSaber();"><span>Saber</span></label> 
 
          <label><input id="inverse-kinematics" type="checkbox" class="toggle"><span>Inverse<br>kinematics</span></label><br>
@@ -133,6 +133,9 @@ No info.
       <script src="lasersaber.js"></script>
 	  
 	  <script>
+  var feedList= ["FORM I STARTPOSE.txt","FORM I DEFENSE.txt","FORM I SIDESTEP_RIGHT.txt","FORM II STARTPOSE.txt","FORM III STARTPOSE.txt", "FORM I DEFENSE.txt"];
+				
+				
 	  var moveFromUrl; 
 	  var movementFileExtention=".txt";
 	  function fillSelectMovement(){
@@ -374,7 +377,6 @@ then close all select boxes:
 document.addEventListener("click", closeAllSelect);*/
  
  function loadMoves() {
-          var feedList= ["FORM_I_STARTPOSE.txt","FORM_I_DEFENSE.txt","FORM_I_SIDESTEP_RIGHT.txt","FORM II STARTPOSE.txt"];
 		
  		var select = document.getElementById('selMovement'); 
 for (var i = 0; i<feedList.length; i++){
