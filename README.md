@@ -1,4 +1,4 @@
-# stances
+# Stances
 Learn movements from sports like Saber fencing and Aikido in interactive 3D, made with Mannequin js.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
