@@ -36,4 +36,6 @@ In examle beneath the female mannequin has two movements, the male one and on th
 
 Basic defense stance. 
 
+
+
 IMPORTANT: Examples can be found in movelists/aikido or movelists/lasersaber
