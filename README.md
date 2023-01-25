@@ -1,6 +1,8 @@
 # stances
 Learn movements from sports like Saber fencing and Aikido in interactive 3D, made with Mannequin js.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Download the project and launch it on Windows with START.bat. 
 Do mind to install node.js before runing the script. 
 
@@ -11,6 +13,8 @@ Do note that index.html here is not the real "startpage", but only the mainpage 
 Note: 
 if you open the index.html page (the default online and through index_Vercel.js) you'll see only a selection menu. 
 If you want to create own poses you can do this by surfing to aikido_start.html or lasersaber.html.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Generating own poses is possible through the following "code":
 You copy the GET POS from the aikido_start.html or lasersaber.html and paste it in a "textfile".
@@ -36,6 +40,7 @@ In examle beneath the female mannequin has two movements, the male one and on th
 
 Basic defense stance. 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 IMPORTANT: Examples can be found in movelists/aikido or movelists/lasersaber
